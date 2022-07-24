@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #432c35;
+}
+
+.relogio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.display {
+    background-color: #432c35;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    border: 10px solid #fefefe;
+    color: #fefefe;
+    font-size: 7rem;
+    font-family: 'Qahiri', sans-serif;
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #432c35;
+}
